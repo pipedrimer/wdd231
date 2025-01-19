@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Stephen David">
+    <meta name="description" content="BYU Dynamic Web Fundamentals by Stephen David, containing a bio and project development ">
+    <link rel="stylesheet" href="./styles/base.css">
+    <link rel="stylesheet" href=
+    "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <title>WDD 231 - Dynamic Web Fundamentals - Stephen David</title>
+</head>
+<body>
+    <div class="header">
+        <div class="title">
+            <img src="images/avater.png" alt="profile-pic">
+            <h1>Stephen David</h1>  
+        </div>
+        
+        
+        <nav>
+        <input type="checkbox" id="check">   
+        <label for="check" class="checkbtn">
+            <i class="fas fa-bars"></i>
+        </label>
+        <label class="logo">WDD 231</label>
+            <ul>
+                <li><a href=""  target="_blank">Home</a></li>
+                <li><a href="" target="_blank">Chamber</a></li>
+                <li><a href=""  target="_blank">Github Profile</a></li>
+                <li><a href=""  target="_blank">Linkedin</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="wrapper">
+    <main class="grid">
+     
+     <section class="card1">
+     <div>
+        <div class="card1title"><h2>Course Work</h2></div>  
+            <div class="content1">
+            <p>
+            
+            </p>
+            
+            </div>
+            <div>
+            
+            
+            <hr>
+            
+            </div>
+        </div>
+     </section>
+     
+     <section class="card2">
+
+        <div class="card2title"> <h2>Lagos, Nigeria</h2></div>
+     <div class="content2"><ol>
+        
+     </ol></div>
+     
+     </section>
+      <section class="certificate">
+        <div>
+        <div class="titlebar">
+            <h2> Web and Computer Programming Certificate</h2>
+        </div>
+        <div class="filter-buttons">
+            <button>All</button>
+            <button>CSE</button>
+            <button>WDD</button>
+        </div>
+        <div class="courses">
+            <div class="course">CSE 110</div>
+            <div class="course">WDD 130</div>
+            <div class="course">CSE 111</div>
+            <div class="course">CSE 210</div>
+            <div class="course">WDD 131</div>
+            <div class="course">WDD 231</div>
+        </div>
+       </div>
+    </section>
+    </main>
+   
+   </div>
+
+    <footer> 
+        <p><span id="currentyear"></span> &copy;  🌺Stephen David🌺 Nigeria</p>
+        <p id="lastModified"> </p>
+    </footer>
+    <script>
+        // Get the current year
+        const currentYear = new Date().getFullYear();
+        
+        // Display the current year in the element with ID "current-year"
+        document.getElementById('currentyear').textContent = currentYear;
+
+        const lastModified= document.lastModified;
+        document.getElementById('lastModified').textContent = `Last Update: ${lastModified}`
+    </script>
+</body>
+</html> 
